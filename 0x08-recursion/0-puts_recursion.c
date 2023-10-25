@@ -1,21 +1,19 @@
 #include "main.h"
 
 /**
-* _puts_recursion - prints a string.
-* description: function like puts
-* @s: the string
-* Return: void
-*
-*/
-
+  * _puts_recursion - main function
+  *
+  * @s: function parameter
+  *
+  * Return: Always 0.
+  */
 void _puts_recursion(char *s)
 {
-	if (*s == '\0')
+	if (*s)
 	{
-		_putchar('\n');
-		return;
-	}
 	_putchar(*s);
-
-	_puts_recursion(s + 1);
+	_puts_recursion(s + 1);
+	}
+	else
+	_putchar('\n');
 }
