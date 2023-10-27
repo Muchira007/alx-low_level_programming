@@ -16,4 +16,4 @@ mandatory
 Write a program that adds positive numbers.
 5. Minimal Number of Coins for Change
 #advanced
-Write a program that prints the minimum number of coins to make change for an amount of money.
+Write a program that prints the minimum number of coins to make change for an amount of monies.
